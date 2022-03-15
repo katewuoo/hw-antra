@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* max-width: 960px; */
+  color: #333;
+}
+
+.signup-container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* flex-box setting */
+.input-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name,
+.psw {
+  width: 48%;
+}
+
+.check-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* input setting */
+input[type="text"] {
+  /* width: 100%; */
+  padding: 15px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.mobile-input,
+.email-input {
+  width: 100%;
+}
+
+input[type="password"] {
+  border-radius: 5px;
+  padding: 15px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 50%;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 15px 15px;
+  letter-spacing: 0.02em;
+  background-color: #4895ef;
+  font-size: 1.2em;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* sign in color */
+input.submit-signin {
+  background-color: #8ac926;
+}
+
+input[type="text"]:focus {
+  border: 2px solid #4895ef;
+  box-shadow: 0 0 3px rgba(72, 149, 239, 1);
+}
+input[type="password"]:focus {
+  border: 2px solid #4895ef;
+  box-shadow: 0 0 3px rgba(72, 149, 239, 1);
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #999;
+  letter-spacing: 0.02em;
+  font-size: 1.3em;
+  opacity: 1; /* Firefox */
+}
+
+/* layout setting */
+h1 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.input-checkbox {
+  font-weight: 500;
+  color: #333;
+}
+
+.para-terms {
+  width: 80%;
+  font-weight: 300;
+}
+
+.p-register {
+  letter-spacing: 0.02em;
+  background-color: #4895ef;
+  border-radius: 3px;
+  font-size: 0.8em;
+  border: none;
+  color: white;
+  padding: 3px 6px;
+}
+
+.terms-link {
+  color: #4895ef;
+}

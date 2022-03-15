@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Form Assigment</title>
+  </head>
+  <body>
+    <div class="signup-container">
+      <form>
+        <h1 class="Signup-title">Sign Up</h1>
+        <div class="input-flex">
+          <input
+            type="text"
+            id="fname"
+            class="name"
+            name="firstname"
+            placeholder="First Name"
+          />
+          <input
+            type="text"
+            id="lname"
+            class="name"
+            name="lastname"
+            placeholder="Last Name"
+          />
+        </div>
+        <input
+          type="text"
+          id="mobile"
+          class="mobile-input"
+          name="mobile"
+          placeholder="Mobile No."
+        />
+        <input
+          type="text"
+          id="email"
+          class="email-input"
+          placeholder="Email Address"
+          name="email"
+          required
+        />
+        <div class="input-flex">
+          <input
+            class="psw"
+            type="password"
+            placeholder="Password"
+            name="psw"
+            id="psw"
+            required
+          />
+          <input
+            class="psw"
+            type="password"
+            placeholder="Comfirm Password"
+            name="psw-comfirm"
+            id="psw-comfirm"
+            required
+          />
+        </div>
+        <div class="input-flex check-flex">
+          <label class="input-checkbox">
+            <input type="checkbox" checked="checked" name="agree" /> I Agree
+          </label>
+          <p class="para-terms">
+            By clicking <button class="p-register">Register</button>, you agree
+            to the <a class="terms-link">Terms and Conditions</a> set out by
+            this site, including our Cookie Use.
+          </p>
+        </div>
+        <div class="input-flex">
+          <form action="">
+            <input
+              id="register-button"
+              class="submit-register"
+              type="submit"
+              name="register"
+              value="Register"
+            />
+          </form>
+          <input
+            id="submit"
+            class="submit-signin"
+            type="submit"
+            name="submit"
+            value="Sign in"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
